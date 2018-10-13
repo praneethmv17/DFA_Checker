@@ -1,0 +1,48 @@
+{
+  "states": [0,1,2,3],
+  "alphabet": ["0","1"],
+  "start_state": 0,
+  "accept_states":[3],
+  "tf":[
+    {
+      "current_state":0,
+      "symbol":"0",
+      "new_state":0
+    },
+    {
+      "current_state":0,
+      "symbol":"1",
+      "new_state":1
+    },
+    {
+      "current_state":1,
+      "symbol":"0",
+      "new_state":1
+    },
+    {
+      "current_state":1,
+      "symbol":"1",
+      "new_state":2
+    },
+    {
+      "current_state":2,
+      "symbol":"0",
+      "new_state":2
+    },
+    {
+      "current_state":2,
+      "symbol":"1",
+      "new_state":3
+    },
+    {
+      "current_state":3,
+      "symbol":"0",
+      "new_state":3
+    },
+    {
+      "current_state":3,
+      "symbol":"1",
+      "new_state":3
+    }
+  ]
+}
